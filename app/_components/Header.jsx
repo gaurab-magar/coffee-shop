@@ -42,8 +42,8 @@ const  Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <header className="bg-white">
-      <nav aria-label="Global" className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8">
+    <header className="bg-[#f7f1e8] shadow-md">
+      <nav aria-label="Global" className="mx-auto flex max-w-7xl items-center justify-between p-4 lg:px-8">
         <div className="flex lg:flex-1">
           <a href="#" className="-m-1.5 p-1.5">
             <span className="sr-only">Your Company</span>
@@ -66,24 +66,24 @@ const  Header = () => {
           </button>
         </div>
         <PopoverGroup className="hidden lg:flex lg:gap-x-12">
-          <a href="#" className="text-md font-extralight text-gray-900">
+          <a href="#" className="text-lg font-light transition-all duration-200 ease-in-out hover:scale-105 text-gray-900">
             Cafe Menu
           </a>
-          <a href="#" className="text-md font-extralight text-gray-900">
+          <a href="#" className="text-lg font-light transition-all duration-200 ease-in-out hover:scale-105 text-gray-900">
             About Us
           </a>
-          <a href="#" className="text-md font-extralight text-gray-900">
+          <a href="#" className="text-lg font-light transition-all duration-200 ease-in-out hover:scale-105 text-gray-900">
             Find Us
           </a>
-          <a href="#" className="text-md font-extralight text-gray-900">
+          <a href="#" className="text-lg font-light transition-all duration-200 ease-in-out hover:scale-105 text-gray-900">
             Alowishus Catering
           </a>
         </PopoverGroup>
-        <div className="hidden lg:flex lg:flex-1 lg:justify-end items-center gap-2">
-          <a href="#" className="text-md font-extralight text-gray-900">
-            <ShoppingBagIcon width={30} className='hover:cursor-pointer rounded-full p-2' />
+        <div className="hidden lg:flex lg:flex-1 lg:justify-end items-center gap-6">
+          <a href="#" className="text-md font-light text-gray-900">
+            <ShoppingBagIcon width={35} className='hover:cursor-pointer bg-white rounded-full p-2 shadow-lg transition-all  duration-200 hover:scale-105 ease-in-out' />
           </a>
-          <Button className="bg-gray-900 text-white p-3 rounded-md shadow-lg">Buy Gift Vouchers</Button>
+          <Button className="hover:cursor-pointer bg-gray-900 text-white px-6 py-2 rounded-full shadow-md transition-all  duration-200 hover:scale-105 ease-in-out hover:shadow-lg">Buy Gift Vouchers</Button>
         </div>
       </nav>
       <Dialog open={mobileMenuOpen} onClose={setMobileMenuOpen} className="lg:hidden">
