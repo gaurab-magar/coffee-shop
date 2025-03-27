@@ -3,7 +3,7 @@ import React from 'react'
 
 const BestSelling = () => {
   return (
-     <div className='bg-gray-50 py-8 flex flex-col items-center justify-center gap-4'>
+     <div className='bg-white py-8 flex flex-col items-center justify-center gap-4'>
             <div className='flex flex-col items-center justify-center gap-3'>
                 <h1 className='text-3xl font-bold text-center'>Best Selling Coffee</h1>
                 <p className='text-lg text-center text-gray-500'>A drink from the 'My Alowishus' bottled brews range or grab one of our delecious.</p>

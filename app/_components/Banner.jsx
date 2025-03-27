@@ -8,7 +8,7 @@ import Image from 'next/image';
 
 const Banner = () => {
   return (
-    <div className="h-screen bg-[#f7f1e8] ">
+    <div className="bg-gray-50">
       <Swiper
         spaceBetween={30}
         centeredSlides={true}
