@@ -18,7 +18,7 @@ const Testimonails = () => {
         <Title title="What Our Clients Say" desc="Don't just take our word for it. Here's what our clients have to say about their experience."/>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 px-6 py-16 items-center">
         {/* Swiper Section */}
-        <div className="flex justify-center">
+        <div className="flex justify-center items-center px-6">
           <Swiper
             effect={'cards'}
             grabCursor={true}
@@ -31,7 +31,7 @@ const Testimonails = () => {
             className="w-[300px] h-[400px]"
           >
               <SwiperSlide>
-                <div className="py-6 px-4 flex flex-col items-center justify-center gap-4 border border-neutral-200 rounded-xl shadow-lg bg-gradient-to-b from-gray-100 to-white transition-transform hover:scale-105 hover:shadow-xl duration-300 h-full">
+                <div className="py-6 mx-8 flex flex-col items-center justify-center gap-4 border border-neutral-200 rounded-xl shadow-lg bg-gradient-to-b from-gray-100 to-white transition-transform hover:scale-105 hover:shadow-xl duration-300 h-full">
                   <Image
                     alt="Sweet coffee"
                     src="/coffee/man.png"
