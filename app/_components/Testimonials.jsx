@@ -28,10 +28,10 @@ const Testimonails = () => {
             }}
             modules={[Autoplay,EffectCards]}
             // modules={[EffectCards]}
-            className="w-[300px] h-[400px]"
+            className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg h-[400px]"
           >
               <SwiperSlide>
-                <div className="py-6 mx-8 flex flex-col items-center justify-center gap-4 border border-neutral-200 rounded-xl shadow-lg bg-gradient-to-b from-gray-100 to-white transition-transform hover:scale-105 hover:shadow-xl duration-300 h-full">
+                <div className="py-6 flex flex-col items-center justify-center gap-4 border border-neutral-200 rounded-xl shadow-lg bg-gradient-to-b from-gray-100 to-white transition-transform hover:scale-105 hover:shadow-xl duration-300 h-full">
                   <Image
                     alt="Sweet coffee"
                     src="/coffee/man.png"
