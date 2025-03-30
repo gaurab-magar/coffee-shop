@@ -5,12 +5,29 @@ import Layout from './Layout';
 const InstantSection = () => {
   return (
     <Layout>
-    <div className='bg-gray-50  py-4 '>
-          <div className='grid sm:grid-cols-1 md:grid-cols-2 py-4'>
-            <div className='flex items-center justify-center order-1  p-4 relative'>
-                <Image alt='img' src='/coffee/hand-drawn-circle-highlighting-free-png.webp' width={550} height={400} className='absolute inset-0 z-0 translate-y-30 -rotate-[18deg]' />
-                <Image alt='img' src='/coffee/coffee-banner.png' width={200} height={200} className='absolute z-10 -rotate-[15deg] translate-x-[-50%] translate-y-[-3%]' />
-                <Image alt='img' src='/coffee/coffee-banner.png' width={200} height={200} className='relative z-20' />
+    <div className='bg-gray-50'>
+          <div className='grid sm:grid-cols-1 md:grid-cols-2 py-4 gap-4'>
+            <div className="flex items-center justify-center order-1 p-4 sm:px-6 relative">
+              <div className="relative w-[200px] sm:w-[100px] md:w-[300px] lg:w-[400px] aspect-[4/3]">
+                <Image
+                  alt="circle"
+                  src="/coffee/hand-drawn-circle-highlighting-free-png.webp"
+                  fill
+                  className="object-contain absolute inset-0 z-0 -rotate-[18deg]"
+                />
+                <Image
+                  alt="coffee"
+                  src="/coffee/coffee-banner.png"
+                  fill
+                  className="object-contain absolute z-10 -rotate-[15deg] translate-x-[-25%] translate-y-[-5%] hidden md:block" 
+                />
+                <Image
+                  alt="coffee"
+                  src="/coffee/coffee-banner.png"
+                  fill
+                  className="object-contain relative z-20"
+                />
+              </div>
             </div>
             <div className='flex flex-col md:items-end sm:items-center justify-center p-6 sm:px-4 md:px-16 gap-4 sm:text-center'>
                 <h1 className='text-3xl font-bold'>Order Your Favourite Coffee</h1>
