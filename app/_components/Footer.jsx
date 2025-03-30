@@ -14,7 +14,7 @@ const Footer = () => {
               alt="coffee Logo"
               width={32}
               height={32}
-              className="h-8 w-auto"
+              className="h-8 w-auto block sm:hidden"
             />
           <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
             <li>

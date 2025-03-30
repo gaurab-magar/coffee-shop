@@ -5,10 +5,10 @@ import Layout from './Layout';
 const InstantSection = () => {
   return (
     <Layout>
-    <div className='bg-gray-50'>
-          <div className='grid sm:grid-cols-1 md:grid-cols-2 py-4 gap-4'>
+    <div className='bg-gray-50 overflow-hidden'>
+          <div className='grid sm:grid-cols-1 md:grid-cols-2 py-4 gap-6'>
             <div className="flex items-center justify-center order-1 p-4 sm:px-6 relative">
-              <div className="relative w-[200px] sm:w-[100px] md:w-[300px] lg:w-[400px] aspect-[4/3]">
+              <div className="relative w-[400px] aspect-[4/3]">
                 <Image
                   alt="circle"
                   src="/coffee/hand-drawn-circle-highlighting-free-png.webp"
