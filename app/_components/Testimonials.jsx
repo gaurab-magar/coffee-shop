@@ -14,7 +14,7 @@ import Layout from './Layout'
 const Testimonails = () => {
   return (
     <Layout>
-      <div className=" bg-white px-6 py-16 ">
+      <div className=" bg-white px-6 py-16 overflow-hidden">
         <Title title="What Our Clients Say" desc="Don't just take our word for it. Here's what our clients have to say about their experience."/>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 px-6 py-16 items-center">
         {/* Swiper Section */}
