@@ -110,7 +110,7 @@ const  Header = () => {
             </div>
             <div className="mt-6 flow-root">
               <div className="-my-6 divide-y divide-gray-500/10">
-                <div className="space-y-2 py-6 flex flex-cols">
+                <div className="space-y-2 py-6 flex flex-rows">
                   <a data-aos="fade-right" href="#" className="text-lg font-light transition-all duration-200 ease-in-out hover:scale-105 text-gray-900">
                     Cafe Menu
                   </a>
