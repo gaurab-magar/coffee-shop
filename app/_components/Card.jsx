@@ -4,7 +4,7 @@ import React from 'react';
 
 const Card = ({ imgSrc, title, description, buttonLabel }) => {
   return (
-    <div className="p-4 py-8 flex flex-col items-center justify-center gap-4 border border-neutral-200 rounded-md shadow-lg bg-gradient-to-b from-gray-100 to-white transition-transform hover:scale-105 hover:shadow-xl duration-300">
+    <div data-aos="fade-up" data-aos-anchor-placement="top-center" className="p-4 py-8 flex flex-col items-center justify-center gap-4 border border-neutral-200 rounded-md shadow-lg bg-gradient-to-b from-gray-100 to-white transition-transform hover:scale-105 hover:shadow-xl duration-300">
       <Image
         alt={title}
         src={imgSrc}
