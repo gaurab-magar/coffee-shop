@@ -110,26 +110,18 @@ const  Header = () => {
             </div>
             <div className="mt-6 flow-root">
               <div className="-my-6 divide-y divide-gray-500/10">
-                <div className="space-y-2 py-6">
-                  <a href="#" className="text-lg font-light transition-all duration-200 ease-in-out hover:scale-105 text-gray-900">
+                <div className="space-y-2 py-6 flex flex-cols">
+                  <a data-aos="fade-right" href="#" className="text-lg font-light transition-all duration-200 ease-in-out hover:scale-105 text-gray-900">
                     Cafe Menu
                   </a>
-                  <a href="#" className="text-lg font-light transition-all duration-200 ease-in-out hover:scale-105 text-gray-900">
+                  <a data-aos="fade-right" href="#" className="text-lg font-light transition-all duration-200 ease-in-out hover:scale-105 text-gray-900">
                     About Us
                   </a>
-                  <a href="#" className="text-lg font-light transition-all duration-200 ease-in-out hover:scale-105 text-gray-900">
+                  <a data-aos="fade-right" href="#" className="text-lg font-light transition-all duration-200 ease-in-out hover:scale-105 text-gray-900">
                     Find Us
                   </a>
-                  <a href="#" className="text-lg font-light transition-all duration-200 ease-in-out hover:scale-105 text-gray-900">
+                  <a data-aos="fade-right" href="#" className="text-lg font-light transition-all duration-200 ease-in-out hover:scale-105 text-gray-900">
                     Alowishus Catering
-                  </a>
-                </div>
-                <div className="py-6">
-                  <a
-                    href="#"
-                    className="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
-                  >
-                    Log in
                   </a>
                 </div>
               </div>
