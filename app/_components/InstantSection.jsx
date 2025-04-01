@@ -9,7 +9,7 @@ const InstantSection = () => {
     <div className="grid sm:grid-cols-1 md:grid-cols-2 py-4 gap-6">
       
       {/* Image Container */}
-      <div className="flex items-center justify-center order-1 p-4 sm:px-6 relative">
+      <div data-aos="fade-right" className="flex items-center justify-center order-1 p-4 sm:px-6 relative">
         <div className="relative w-full max-w-[400px] aspect-[4/3]">
           
           {/* Background Circle */}
@@ -40,7 +40,7 @@ const InstantSection = () => {
       </div>
 
       {/* Text Content */}
-      <div className="flex flex-col md:items-end sm:items-center justify-center p-6 sm:px-4 md:px-16 gap-4 sm:text-center">
+      <div data-aos="fade-left" className="flex flex-col md:items-end sm:items-center justify-center p-6 sm:px-4 md:px-16 gap-4 sm:text-center">
         <h1 className="text-3xl font-bold">Order Your Favourite Coffee</h1>
         <p className="text-lg text-gray-600">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit Lorem ipsum, dolor sit amet consectetur adipisicing elit.

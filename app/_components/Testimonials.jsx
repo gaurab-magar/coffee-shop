@@ -18,7 +18,7 @@ const Testimonails = () => {
         <Title title="What Our Clients Say" desc="Don't just take our word for it. Here's what our clients have to say about their experience."/>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 px-6 py-16 items-center">
         {/* Swiper Section */}
-        <div className="flex justify-center items-center px-6">
+        <div data-aos="fade-right" className="flex justify-center items-center px-6">
           <Swiper
             effect={'cards'}
             grabCursor={true}
@@ -180,7 +180,7 @@ const Testimonails = () => {
               </SwiperSlide>
           </Swiper>
         </div>
-        <div className="flex flex-col justify-start gap-4 max-w-md mx-auto text-center md:text-left">
+        <div data-aos="fade-left" className="flex flex-col justify-start gap-4 max-w-md mx-auto text-center md:text-left">
           <h3 className="text-3xl font-bold text-gray-800">What Our Customers Say</h3>
           <p className="text-gray-600 text-md">
             We value our customers more than anything. Here’s what they have to say about our delicious coffee and warm service.
