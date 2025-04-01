@@ -109,22 +109,22 @@ const  Header = () => {
               </button>
             </div>
             <div className="mt-6 flow-root">
-              <div className="-my-6 divide-y divide-gray-500/10">
-                <div className="space-y-2 py-6 flex flex-rows">
-                  <a data-aos="fade-right" href="#" className="text-lg font-light transition-all duration-200 ease-in-out hover:scale-105 text-gray-900">
-                    Cafe Menu
-                  </a>
-                  <a data-aos="fade-right" href="#" className="text-lg font-light transition-all duration-200 ease-in-out hover:scale-105 text-gray-900">
-                    About Us
-                  </a>
-                  <a data-aos="fade-right" href="#" className="text-lg font-light transition-all duration-200 ease-in-out hover:scale-105 text-gray-900">
-                    Find Us
-                  </a>
-                  <a data-aos="fade-right" href="#" className="text-lg font-light transition-all duration-200 ease-in-out hover:scale-105 text-gray-900">
-                    Alowishus Catering
-                  </a>
-                </div>
+            <div className="-my-6 divide-y divide-gray-500/10">
+              <div className="space-y-2 py-6 flex flex-col">
+                <a data-aos="fade-right" href="#" className="text-lg font-light transition-all duration-200 ease-in-out hover:scale-105 text-gray-900">
+                  Cafe Menu
+                </a>
+                <a data-aos="fade-right" href="#" className="text-lg font-light transition-all duration-200 ease-in-out hover:scale-105 text-gray-900">
+                  About Us
+                </a>
+                <a data-aos="fade-right" href="#" className="text-lg font-light transition-all duration-200 ease-in-out hover:scale-105 text-gray-900">
+                  Find Us
+                </a>
+                <a data-aos="fade-right" href="#" className="text-lg font-light transition-all duration-200 ease-in-out hover:scale-105 text-gray-900">
+                  Alowishus Catering
+                </a>
               </div>
+            </div>
             </div>
           </DialogPanel>
         </Dialog>
