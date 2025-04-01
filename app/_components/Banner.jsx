@@ -26,7 +26,7 @@ const Banner = () => {
               <div className="flex flex-col md:grid md:grid-cols-2 items-center gap-8">
                 
                 {/* Text Content */}
-                <div className="flex justify-center md:justify-end">
+                <div data-aos="fade-right" className="flex justify-center md:justify-end">
                   <div className="max-w-xl space-y-6 text-center md:text-left">
                     <div className="relative">
                       <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold leading-tight">
@@ -56,7 +56,7 @@ const Banner = () => {
                 </div>
 
                 {/* Image */}
-                <div className="flex justify-center md:justify-start">
+                <div data-aos="fade-left" className="flex justify-center md:justify-start">
                   <Image
                     src="/coffee/hero1.png"
                     alt="Coffee Hero"
@@ -74,7 +74,7 @@ const Banner = () => {
               <div className="flex flex-col md:grid md:grid-cols-2 items-center gap-8">
                 
                 {/* Text Content */}
-                <div className="flex justify-center md:justify-end">
+                <div data-aos="fade-right" className="flex justify-center md:justify-end">
                   <div className="max-w-xl space-y-6 text-center md:text-left">
                     <div className="relative">
                       <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold leading-tight">
@@ -104,7 +104,7 @@ const Banner = () => {
                 </div>
 
                 {/* Image */}
-                <div className="flex justify-center">
+                <div data-aos="fade-left" className="flex justify-center">
                   <Image
                     src="/coffee/coffee-mid.png"
                     alt="Coffee Hero"
@@ -122,7 +122,7 @@ const Banner = () => {
               <div className="flex flex-col md:grid md:grid-cols-2 items-center gap-8">
                 
                 {/* Text Content */}
-                <div className="flex justify-center md:justify-end">
+                <div data-aos="fade-right" className="flex justify-center md:justify-end">
                   <div className="max-w-xl space-y-6 text-center md:text-left">
                     <div className="relative">
                       <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold leading-tight">
@@ -152,7 +152,7 @@ const Banner = () => {
                 </div>
 
                 {/* Image */}
-                <div className="flex justify-center overflow-hidden">
+                <div data-aos="fade-left" className="flex justify-center overflow-hidden">
                   <Image
                     src="/coffee/man-holding.png"
                     alt="Coffee Hero"

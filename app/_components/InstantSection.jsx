@@ -51,7 +51,7 @@ const InstantSection = () => {
     </div>
   </div>
 </Layout>
-
+  
   )
 }
 
