@@ -10,7 +10,7 @@ const BestSelling = () => {
         <div className='bg-white py-8 flex flex-col items-center justify-center gap-4'>
                 <Title title="Best Selling Coffee" desc="A drink from the 'My Alowishus' bottled brews range or grab one of our delecious."/>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-4 py-8 w-full max-w-7xl mx-auto">
-                    <div className="p-6 flex flex-col gap-6 border border-neutral-200 rounded-xl shadow-md bg-gradient-to-b from-gray-100 to-white hover:scale-105 hover:shadow-xl transition-transform duration-300">
+                    <div  data-aos="fade-up" data-aos-anchor-placement="top-center" className="p-6 flex flex-col gap-6 border border-neutral-200 rounded-xl shadow-md bg-gradient-to-b from-gray-100 to-white hover:scale-105 hover:shadow-xl transition-transform duration-300">
                         <div className="flex flex-col sm:flex-row items-center gap-4">
                         <Image
                             alt="Sweet coffee"
@@ -32,7 +32,7 @@ const BestSelling = () => {
                         <Button label="Download Now" />
                         </div>
                     </div>
-                    <div className="p-6 flex flex-col gap-6 border border-neutral-200 rounded-xl shadow-md bg-gradient-to-b from-gray-100 to-white hover:scale-105 hover:shadow-xl transition-transform duration-300">
+                    <div  data-aos="fade-up" data-aos-anchor-placement="top-center" className="p-6 flex flex-col gap-6 border border-neutral-200 rounded-xl shadow-md bg-gradient-to-b from-gray-100 to-white hover:scale-105 hover:shadow-xl transition-transform duration-300">
                         <div className="flex flex-col sm:flex-row items-center gap-4">
                         <Image
                             alt="Sweet coffee"
@@ -54,7 +54,7 @@ const BestSelling = () => {
                         <Button label="Download Now" />
                         </div>
                     </div>
-                    <div className="p-6 flex flex-col gap-6 border border-neutral-200 rounded-xl shadow-md bg-gradient-to-b from-gray-100 to-white hover:scale-105 hover:shadow-xl transition-transform duration-300">
+                    <div  data-aos="fade-up" data-aos-anchor-placement="top-center" className="p-6 flex flex-col gap-6 border border-neutral-200 rounded-xl shadow-md bg-gradient-to-b from-gray-100 to-white hover:scale-105 hover:shadow-xl transition-transform duration-300">
                         <div className="flex flex-col sm:flex-row items-center gap-4">
                         <Image
                             alt="Sweet coffee"
